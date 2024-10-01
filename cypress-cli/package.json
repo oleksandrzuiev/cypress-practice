@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "mochawesome": "^7.1.3"
+  },
+  "scripts": {
+  "test:v1": "cypress run --config-file cypress.config.js --e2e",
+  "test:v2": "cypress run --config-file cypress.config.v2.js --e2e"
+}
+}
